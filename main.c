@@ -9,6 +9,8 @@ int main (void) {
 	printf("(swapped) a = %d, b = %d\n" , a ,b);
 	prinf("(added) a + b = %d + %d = %d\n" , a, b, add(&a,&b));
 	printf("(subtracted) a - b = %d - %d = %d\n", a, b, suctract(&a,&b));
+
+	printf("modified\n");
 	return 0;
 
 } 
