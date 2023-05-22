@@ -7,10 +7,10 @@ int main (void) {
 	printf("(initial) a = %d , b = %d/n" , a, b);
 	swap(&a , &b);
 	printf("(swapped) a = %d, b = %d\n" , a ,b);
-	prinf("(added) a + b = %d + %d = %d\n" , a, b, add(&a,&b));
-	printf("(subtracted) a - b = %d - %d = %d\n", a, b, suctract(&a,&b));
-
-	printf("modified\n");
+	add(&a ,&b);
+	printf("(added) a + b = %d + %d = %d\n" , a, b);
+	subtract(&a, &b);
+	printf("(subtracted) a - b = %d - %d = %d\n", a, b);
 	return 0;
 
 } 
